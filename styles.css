@@ -125,6 +125,12 @@ h3{
 
 }
 
+.horizontal-scroll,
+.horizontal-scroll-wrapper {
+    height: 100vh; /* no svh */
+}
+
+
 .horizontal-slide{
     flex: 1;
     height: 100%;
@@ -156,8 +162,11 @@ h3{
     width: 75%;
 }
 
-.horizontal-slide .col img{
-    height: 75%;
+.horizontal-slide .col img {
+    width: 100%;
+    height: auto; /* en lugar de 100% */
+    max-height: 80vh;
+    object-fit: contain; /* evita que se desborden */
 }
 
 
