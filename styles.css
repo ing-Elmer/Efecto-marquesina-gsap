@@ -47,7 +47,7 @@ h3{
 .hero, .outro{
     position: relative;
     width: 100%;
-    height: 100vh;
+    height: 100svh;
     padding: 2rem;
     align-content: center;
     text-align: center;
@@ -67,7 +67,7 @@ h3{
 .marquee{
     position: relative;
     width: 100%;
-    height: 50vh;
+    height: 50svh;
     overflow: hidden;
 }
 .marquee-wrapper{
@@ -111,7 +111,7 @@ h3{
 .horizontal-scroll{
     position: relative;
     width: 100%;
-    height: 100vh;
+    height: 100svh;
     overflow: hidden;
 
 }
@@ -119,13 +119,11 @@ h3{
 .horizontal-scroll-wrapper{
     position: relative;
     width: 300%;
-    height: 100vh;
+    height: 100svh;
     display: flex;
     will-change: transform;
 
 }
-
-
 
 .horizontal-slide{
     flex: 1;
@@ -158,7 +156,9 @@ h3{
     width: 75%;
 }
 
-
+.horizontal-slide .col img{
+    height: 75%;
+}
 
 
 @media (max-width: 1000px) {
